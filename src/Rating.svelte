@@ -30,7 +30,7 @@
 
 	const random = Math.floor(Math.random() * 1000000)
 	
-	const value_tweened = tweened(0, {
+	const value_tweened = tweened(value, {
 		duration,
 		easing: cubicOut
 	})
