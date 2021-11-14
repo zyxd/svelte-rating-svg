@@ -8,7 +8,8 @@ npm install svelte-rating-svg
 
 # Usage
 
-```<Rating/>
+```
+<Rating/>
 
 <script>
   import Rating from 'svelte-rating-svg'
@@ -17,9 +18,9 @@ npm install svelte-rating-svg
 
 # Properties
 
-**value** - Value between 0 and 1
-**color** - Color of stars
-**max**  - Maximum number of stars
+**value** - Value between 0 and 1__
+**color** - Color of stars__
+**max**  - Maximum number of stars__
 **duration** - Filling of rating duration in seconds
 
 # Examples
