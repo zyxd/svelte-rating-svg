@@ -1,6 +1,11 @@
-*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev) and its [package command](https://kit.svelte.dev/docs#packaging) which gives you more built-in features like TypeScript transpilation, type definition generation and a built-in playground to test your library.*
+Easy to use, run and install svelte component for building SVG star rating.
+You can use unlimited stars with fractional view.
+Component compatible with Server Side Rendering (SSR).
 
-*Looking for an app template instead? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+
+
+
+
 
 ---
 
