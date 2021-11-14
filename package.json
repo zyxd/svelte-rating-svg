@@ -1,6 +1,6 @@
 {
   "name": "svelte-rating-svg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scalable stars-rating component for Svelte",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
