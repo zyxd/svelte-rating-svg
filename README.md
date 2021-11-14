@@ -2,11 +2,11 @@ Easy to use, run and install svelte component for building SVG star rating. You 
 
 
 # Installation
-
+```
 npm install svelte-rating-svg
+```
 
-
-Usage
+# Usage
 
 ```<Rating/>
 
@@ -17,10 +17,10 @@ Usage
 
 # Properties
 
-value - Value between 0 and 1
-color - Color of stars
-max  - Maximum number of stars
-duration - Filling of rating duration in seconds
+**value** - Value between 0 and 1
+**color** - Color of stars
+**max**  - Maximum number of stars
+**duration** - Filling of rating duration in seconds
 
 # Examples
 
