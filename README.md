@@ -15,8 +15,8 @@ npm install svelte-rating-svg
   import Rating from 'svelte-rating-svg'
 </script>
 ```
-or you can use direct link to generate SVG:
-https://svelte-rating-svg.vercel.app/rating-[value]-[max]-[color].svg
+or you can use direct link to generate SVG:</br>
+```https://svelte-rating-svg.vercel.app/rating-[value]-[max]-[color].svg```
 
 ## Properties
 
