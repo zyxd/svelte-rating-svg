@@ -1,40 +1,29 @@
 Easy to use, run and install svelte component for building SVG star rating. You can use unlimited stars with fractional view. Component compatible with Server Side Rendering (SSR).
 
 
+# Installation
+
+npm install svelte-rating-svg
 
 
+Usage
 
+```<Rating/>
 
----
-
-# component-template
-
-A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/component-template my-new-component
-cd my-new-component
-npm install # or yarn
+<script>
+  import Rating from 'svelte-rating-svg'
+</script>
 ```
 
-Your component's source code lives in `src/Component.svelte`.
+# Properties
 
-You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
+value - Value between 0 and 1
+color - Color of stars
+max  - Maximum number of stars
+duration - Filling of rating duration in seconds
 
-TODO
+# Examples
 
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
-
-
-## Setting up
-
-* Run `npm init` (or `yarn init`)
-* Replace this README with your own
-
-
-## Consuming components
-
-Your package.json has a `"svelte"` field pointing to `src/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
-
-For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`dist/index.mjs`) and a UMD script (`dist/index.js`). This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
+```<Rating value="0.5" color="green" max="3"/>```
+```<Rating value="0.9" color="#AAA" duration="10000"/>```
+```<Rating value="0.4321" max="1"/>```
