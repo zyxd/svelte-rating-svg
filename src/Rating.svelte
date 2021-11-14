@@ -1,4 +1,4 @@
-<svg width={width_total} height={height} viewBox={`0 0 ${width_total} ${height}`}>
+<svg width={width_total} height={height} viewBox={`0 0 ${width_total} ${height}`} xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
 		<mask id={`perc-${random}`}>
       <rect x="0" y="0" width="100%" height="100%" fill="#fff" />
@@ -28,7 +28,7 @@
 	export let color = 'red'
 	export let duration = 1000
 
-	const random = Math.floor(Math.random() * 1000000);
+	const random = Math.floor(Math.random() * 1000000)
 	
 	const value_tweened = tweened(0, {
 		duration,
