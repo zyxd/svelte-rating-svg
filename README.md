@@ -31,4 +31,4 @@ or you can use direct link to generate SVG:</br>
 ```<Rating value="0.9" color="#AAA" duration="10000"/>```  ![rating-0.9-5-%23AAA.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg)</br>
 ```<Rating value="0.4321" max="1"/>```  ![rating-0.4321-1-red.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) </br>
 ```https://svelte-rating-svg.vercel.app/rating-0.5-4-blue.svg``` ![rating-0.5-4-blue.svg](https://svelte-rating-svg.vercel.app/rating-0.5-4-blue.svg) </br>
-
+```https://svelte-rating-svg.vercel.app/rating-0.85-5-%23AB00BA.svg``` ![rating-0.85-5-%23AB00BA](https://svelte-rating-svg.vercel.app/rating-0.85-5-%23AB00BA.svg) </br>
