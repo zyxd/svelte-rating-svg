@@ -1,3 +1,7 @@
+<p align="center">
+  <img height="50px" src="https://svelte-rating-svg.vercel.app/rating-0.70-30-orange.svg">
+</p>
+
 Easy to use, run and install svelte component for building SVG star rating. You can use unlimited stars with fractional view. Component compatible with Server Side Rendering (SSR).
 
 
@@ -30,5 +34,5 @@ npm install svelte-rating-svg
 | Code | Result |
 | --- | --- |
 | `<Rating value="0.5" color="green" max="3"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.5-3-green.svg) |
-| `<Rating value="0.9" color="#AAA" duration="10000"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg) |
-| `<Rating value="0.4321" max="1"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) |
+| `<Rating value="0.9" color="#AAA" duration="10000"/>` | ![rating-0.9-5-#AAA.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg) |
+| `<Rating value="0.4321" max="1"/>` | ![rating-0.4321-1-red.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) |
