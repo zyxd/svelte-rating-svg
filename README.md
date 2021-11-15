@@ -15,8 +15,6 @@ npm install svelte-rating-svg
   import Rating from 'svelte-rating-svg'
 </script>
 ```
-or you can use direct link to generate SVG:</br>
-```https://svelte-rating-svg.vercel.app/rating-[value]-[max]-[color].svg```
 
 ## Properties
 
@@ -27,8 +25,8 @@ or you can use direct link to generate SVG:</br>
 
 ## Examples
 
-```<Rating value="0.5" color="green" max="3"/>```  ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.5-3-green.svg) </br>
-```<Rating value="0.9" color="#AAA" duration="10000"/>```  ![rating-0.9-5-%23AAA.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg)</br>
-```<Rating value="0.4321" max="1"/>```  ![rating-0.4321-1-red.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) </br>
-```https://svelte-rating-svg.vercel.app/rating-0.5-4-blue.svg``` ![rating-0.5-4-blue.svg](https://svelte-rating-svg.vercel.app/rating-0.5-4-blue.svg) </br>
-```https://svelte-rating-svg.vercel.app/rating-0.85-5-%23AB00BA.svg``` ![rating-0.85-5-%23AB00BA](https://svelte-rating-svg.vercel.app/rating-0.85-5-%23AB00BA.svg) </br>
+| Code | Result |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `<Rating value="0.5" color="green" max="3"/>`         | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.5-3-green.svg)  |
+| `<Rating value="0.9" color="#AAA" duration="10000"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg) |
+| `<Rating value="0.4321" max="1"/>`                    | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) |
