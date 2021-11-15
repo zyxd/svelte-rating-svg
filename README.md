@@ -2,7 +2,7 @@
   <img width="100%" src="https://svelte-rating-svg.vercel.app/rating-0.70-12-orange.svg">
 </a>
 
-#### Easy to use, run and install svelte component for building SVG star rating. You can use unlimited stars with fractional view. Component compatible with Server Side Rendering (SSR).
+#### Easy to use, run and install [Svelte](https://github.com/sveltejs/svelte) component for building SVG stars-rating. It can be used to make unlimited stars with fractional rating and any colors. Component compatible with Server Side Rendering (SSR).
 
 
 ## Installation
