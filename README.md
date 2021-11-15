@@ -23,7 +23,7 @@ npm install svelte-rating-svg
 | **value** | Value between 0 and 1 | Number | 0 |
 | **color** | Color of stars | String | red |
 | **max** | Maximum number of stars | Number | 5 |
-| **duration** | Filling of rating animation in milliseconds | Number | 1000 |
+| **duration** | Transition duration in milliseconds | Number | 1000 |
 
 ## Examples
 
