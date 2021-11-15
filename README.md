@@ -2,18 +2,18 @@ Easy to use, run and install svelte component for building SVG star rating. You 
 
 
 ## Installation
-```
+```bash
 npm install svelte-rating-svg
 ```
 
 ## Usage
 
-```
-<Rating/>
-
+```svelte
 <script>
   import Rating from 'svelte-rating-svg'
 </script>
+
+<Rating/>
 ```
 
 ## Properties
@@ -26,7 +26,7 @@ npm install svelte-rating-svg
 ## Examples
 
 | Code | Result |
-| ----------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| `<Rating value="0.5" color="green" max="3"/>`         | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.5-3-green.svg)  |
+| --- | --- |
+| `<Rating value="0.5" color="green" max="3"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.5-3-green.svg) |
 | `<Rating value="0.9" color="#AAA" duration="10000"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.9-5-%23AAA.svg) |
-| `<Rating value="0.4321" max="1"/>`                    | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) |
+| `<Rating value="0.4321" max="1"/>` | ![rating-0.5-3-green.svg](https://svelte-rating-svg.vercel.app/rating-0.4321-1-red.svg) |
