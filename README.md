@@ -13,7 +13,7 @@ npm install svelte-rating-svg
   import Rating from 'svelte-rating-svg'
 </script>
 
-<Rating/>
+<Rating value="0.25"/>
 ```
 
 ## Properties
